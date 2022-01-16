@@ -34,8 +34,7 @@ h1.className="header"
 document.getElementById("root").append(h1);
 */
 
-
-const element = <h1 className>This is JSX</h1>
+const element = <h1 className="element">This is JSX</h1>
 console.log(element)
 
 ReactDOM.render(element,
