@@ -1,8 +1,14 @@
-.container {
+main {
     padding: 57px 27px;
-    /* height: 100vh; */
+    height: 100vh;
     color: white;
     background-color: #282D35;
+    background-position-y: top;
+    background-image: url(../assets/logo512.png);
+    /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)); */
+    /* url("../../media/examples/lizard.png"); */
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
 .main--title {
@@ -19,4 +25,10 @@
 .main--facts>li {
     line-height: 19px;
     padding-block: 10px;
+    font-size: 1.2rem;
+}
+
+.main--facts>li::marker {
+    font-size: 1.5rem;
+    color: #61DAFB;
 }
