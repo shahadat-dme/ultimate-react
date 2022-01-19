@@ -1,10 +1,14 @@
 import './App.css';
-import CreateComp from './components/CreateComp'
+import Footer from './components/Footer';
+import Header from './components/Header';
+import MainContent from './components/MainContent';
 
 function App() {
   return (
-    <div className="App">
-      <CreateComp/>
+    <div>
+      <Header/>
+      <MainContent/>
+      <Footer/>
     </div>
   );
 }

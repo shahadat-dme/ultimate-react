@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 40px;
+    margin-left: 25px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items>li {
+    padding: 10px;
+    margin-right: 20px;
+
+}
+
+.nav-items>li a {
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+}
